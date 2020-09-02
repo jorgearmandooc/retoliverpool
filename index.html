@@ -1,0 +1,42 @@
+<!doctype html>
+<html ng-app="liverpool">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+		<script src="https://code.angularjs.org/1.8.0/angular-route.min.js"></script>
+		<script src="https://code.angularjs.org/1.8.0/angular-sanitize.min.js"></script>
+		
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+		
+		<link rel="stylesheet" href="assets/css/app.css" type="text/css"></link>
+		
+	</head>
+	<body ng-controller='mainController'>
+		
+		<ng-view></ng-view>
+		
+		<script src="app.module.js"></script>
+		<script src="app.routes.js"></script>
+		
+		<!-- SERVICES -->
+		
+		<script src="services/webservice.js"></script>
+
+		<!-- COMPONENTS -->
+		
+		<!-- header -->
+		<link rel="stylesheet" href="components/header/headerStyle.css" type="text/css"></link>
+		<script src="components/header/headerController.js"></script>
+		<script src="components/header/headerComponent.js"></script>
+		
+		<!-- header -->
+		<link rel="stylesheet" href="components/productCard/productCardStyle.css" type="text/css"></link>
+		<script src="components/productCard/productCardController.js"></script>
+		<script src="components/productCard/productCardComponent.js"></script>
+		
+		<!-- sectionProducts -->
+		<link rel="stylesheet" href="components/sectionProducts/sectionProductsStyle.css" type="text/css"></link>
+		<script src="components/sectionProducts/sectionProductsController.js"></script>
+		
+		
+	</body>
+</html>

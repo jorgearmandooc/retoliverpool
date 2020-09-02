@@ -1,0 +1,30 @@
+.productCard{
+	box-shadow:0 2px 4px 0 rgba(0,0,0,.15);
+	background:#fff;
+	padding:0 .75rem;
+	width:260px;
+	float:left;
+	height:390px!important;
+	border-radius:4px;
+	margin-bottom:8px;
+	margin-right:8px;
+}
+#productCard-img{
+	width:100%;
+	float:left;
+}
+#productCard-img img{
+	max-width:100%;
+	float:left;
+}
+#productCard-name{
+	width:100%;
+	float:left;
+}
+#productCard-price{
+	width:100%;
+	float:left;
+	color:red;
+	font-weight:700;
+	margin-top:10px;
+}

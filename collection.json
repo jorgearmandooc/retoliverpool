@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "5f4fe8ebfb19b624e34d24fa"
+  },
+  "name": "Kit de herramientas Santul 986 sierra caladora + lijadora orbital",
+  "price": "$1,199.00",
+  "img": "https://ss343.liverpool.com.mx/lg/1092236087.jpg"
+},{
+  "_id": {
+    "$oid": "5f4fe957fb19b624e34d24fb"
+  },
+  "name": "Set Mini amoladora GWS 6700 + 5 discos Bosch 120 Volts",
+  "img": "https://ss343.liverpool.com.mx/lg/1097270003.jpg",
+  "price": "$1,189.30"
+}]
